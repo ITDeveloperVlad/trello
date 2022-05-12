@@ -1,0 +1,22 @@
+.favouriteOff {
+
+    margin: 20px 10px;
+    width:32px;
+    height: 32px;
+    background-image: url("../images/favouriteOff.png");
+}
+.favouriteOn {
+    margin: 20px 10px;
+    width:32px;
+    height: 32px;
+    background-image: url("../images/favouriteOn.png");
+}
+
+.favouriteOff:hover {
+    background-image: url("../images/favouriteOn.png");
+    cursor: pointer;
+}
+
+.favouriteOn:hover {
+    cursor:pointer;
+}

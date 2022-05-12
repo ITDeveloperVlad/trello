@@ -1,0 +1,15 @@
+#icon {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width:10%;
+}
+
+#icon img{
+    width: 80%;
+}
+
+#icon h4 {
+    color: white;
+}

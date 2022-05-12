@@ -1,0 +1,83 @@
+.menu-container {
+    position: relative;
+}
+
+.menu {
+    width:150px;
+    background: #ffffff;
+    border-radius: 8px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    top: 60px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+}
+
+.menu.active {
+    opacity: 1;
+    z-index: 1000;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    border-bottom: 1px solid #dddddd;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333333;
+    padding: 15px 20px;
+    display: block;
+}
+
+.menu-trigger {
+    width:100%;
+    background:  #6686ff;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    vertical-align: middle;
+    margin: 20px 10px;
+    height: 30px;
+}
+
+.menu-trigger img {
+    width: 10px;
+}
+
+.menu-trigger:hover {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+    background: #7b9aff;
+    border-radius: 5px;
+}
+
+.menu-trigger span {
+    vertical-align: middle;
+    font-size: 12px;
+
+}
+
+nav{
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}

@@ -1,0 +1,23 @@
+.App {
+  background-image: url("../images/Background.jpg");
+  height: 100vh;
+}
+
+header{
+  background: #6686ff;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 5px
+}
+
+#info_board {
+  background: rgba(102,134,255,0.51);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+}
